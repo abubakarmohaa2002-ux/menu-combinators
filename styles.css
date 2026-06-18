@@ -1,0 +1,18 @@
+/*
+  🧠 PROJECT: Menu Layout — Combinators
+*/
+
+/* STEP 1 — Descendant combinator */
+.menu a {
+  color: blue;
+}
+
+/* STEP 2 — Child combinator */
+ul > li {
+  padding: 10px;
+}
+
+/* STEP 3 — Adjacent sibling */
+li + li {
+  background-color: lightgray;
+}
